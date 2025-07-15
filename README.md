@@ -36,6 +36,7 @@ azure-mini-project-01/
 │   ├── credit card.csv
 │   └── txn.csv
 ├── README.md
+|── requirements.txt
 └── .gitignore
 ```
 
