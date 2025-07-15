@@ -37,3 +37,58 @@ azure-mini-project-01/
 │   └── txn.csv
 ├── README.md                # This file
 └── .gitignore               # (Optional) for local paths and notebook junk
+```
+
+
+
+## 📊 Datasets Used
+
+Three CSV files were used to simulate a multi-domain banking environment:
+
+- `loan.csv`: Customer loan details (e.g., income, loan category, cheque return, etc.)
+- `credit card.csv`: Credit eligibility, salary, and account metadata
+- `txn.csv`: Transaction-level data including deposits and withdrawals
+
+
+
+## ✅ Goals
+
+Each dataset was used to answer specific business questions using **PySpark**:
+
+- Schema introspection (`.printSchema()`)
+- Filtering based on conditions (`.filter()`)
+- Aggregations (`.agg()`, `.groupBy()`)
+- Distinct record counts
+- Customer segmentation (by income, location, activity, etc.)
+
+All logic was implemented using PySpark DataFrame syntax, not SQL.
+
+## 🔍 Sample Queries
+
+```python
+# Number of customers with income > 60,000
+loan_df.filter(col("Income") > 60000).count()
+
+# Maximum withdrawal per account
+txn_df.groupBy("ACCOUNT NO").agg(max("WITHDRAWAL AMT")).show()
+```
+
+## 📈 Summary
+
+All analytical prompts were completed using native PySpark syntax.
+The notebook reflects clean, well-structured, and readable logic with verified outputs.
+Compute was shut down after use to minimize costs.
+
+
+
+## 📌 Notes
+
+- All queries were validated by manual re-run.
+- GitHub Copilot suggestions were reviewed and confirmed for accuracy.
+- The notebook was QA'd offline using VS Code's native Jupyter support.
+
+## 📎 Related Repositories
+
+This repo is part of a larger meta-repo:
+
+🔗 [capstone-meta-repo](https://github.com/mtholahan/Springboard-Projects) *(replace with actual URL)*
