@@ -35,8 +35,8 @@ azure-mini-project-01/
 │   ├── loan.csv
 │   ├── credit card.csv
 │   └── txn.csv
-├── README.md                # This file
-└── .gitignore               # (Optional) for local paths and notebook junk
+├── README.md
+└── .gitignore
 ```
 
 
