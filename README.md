@@ -2,12 +2,12 @@
 
 
 ## 📖 Abstract
-This project demonstrates how to use Azure Databricks and PySpark to explore and transform financial transaction data. The provided lab notebook (banking_lab.dbc) contained a series of prompts guiding the construction of PySpark DataFrame operations to query, filter, and aggregate customer banking data.
-
-Within Databricks, I imported the notebook into my workspace and iteratively implemented PySpark solutions to answer questions such as filtering transactions by type, grouping by account attributes, and aggregating customer activity. The emphasis was on applying PySpark DataFrame APIs rather than SparkSQL, building fluency with Spark’s Pythonic interface.
-
-The exercise culminated in a completed Databricks notebook that illustrates core data engineering skills: data ingestion, transformation, aggregation, and query design in PySpark. Along the way, I deepened my understanding of PySpark syntax, DataFrame query patterns, and Databricks’ cloud-native development environment.
-
+This project demonstrates how to use Azure Databricks and PySpark to explore and transform financial transaction data. The provided lab notebook (banking_lab.dbc) contained a series of prompts guiding the construction of PySpark DataFrame operations to query, filter, and aggregate customer banking data.
+
+Within Databricks, I imported the notebook into my workspace and iteratively implemented PySpark solutions to answer questions such as filtering transactions by type, grouping by account attributes, and aggregating customer activity. The emphasis was on applying PySpark DataFrame APIs rather than SparkSQL, building fluency with Spark’s Pythonic interface.
+
+The exercise culminated in a completed Databricks notebook that illustrates core data engineering skills: data ingestion, transformation, aggregation, and query design in PySpark. Along the way, I deepened my understanding of PySpark syntax, DataFrame query patterns, and Databricks’ cloud-native development environment.
+
 This project highlights how Spark-based data engineering is performed in the cloud, bridging Python workflows with distributed compute in Azure Databricks.
 
 
@@ -95,4 +95,4 @@ Screenshot of cluster configuration
 
 
 
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-15-2025 00:57:59*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-15-2025 18:04:02*
