@@ -25,10 +25,18 @@ This project highlights how Spark-based data engineering is performed in the clo
 
 
 ## 🧰 Setup
-- Log into Azure Databricks workspace
-- Navigate to your user directory → Import → Upload file
-- Import banking_lab.dbc into your workspace
-- Open the imported notebook in Databricks
+- From Azure Home, "Azure Services," choose "Azure Databricks"
+- Follow wizard to stand-up a Databricks instance (you will need to create a cluster resource too for compute).
+- Launch Azure Databricks workspace
+- Navigate to your "Users" directory
+- Choose a user
+- Right-click → Import → Upload the DBC file
+- Click on the "banking_lab" notebook to open
+- In the "banking_lab" notebook UI, look for a menu at the top ("File Edit View Run...")
+- Choose File → Upload Data to DBFS. This opens a new "Upload Data" window
+- Drag and Drop 3 CSVs. The target path will be: /FileStore/shared_uploads/<user name>/
+- You can use "dbutils.fs" commands once in the notebook to manage DBFS files
+
 
 
 
@@ -56,22 +64,22 @@ This project highlights how Spark-based data engineering is performed in the clo
 
 ## 📸 Evidence
 
-![databricks_notebook.png](./evidence/databricks_notebook.png)  
+![01_databricks_notebook.png](./evidence/01_databricks_notebook.png)  
 Screenshot of Databricks notebook in workspace
 
-![cluster_ui.png](./evidence/cluster_ui.png)  
-Screenshot of cluster configuration
+![02_databricks_cluster_configuration.png](./evidence/02_databricks_cluster_configuration.png)  
+Screenshot of Databricks cluster configuration
 
 
 
 
 ## 📎 Deliverables
 
-- [`- Databricks notebooks (.dbc export) in /deliverables/`](./deliverables/- Databricks notebooks (.dbc export) in /deliverables/)
+- [`banking_lab.ipynb`](./deliverables/banking_lab.ipynb)
 
-- [`- requirements.txt`](./deliverables/- requirements.txt)
+- [`requirements.txt`](./deliverables/requirements.txt)
 
-- [`- README with instructions`](./deliverables/- README with instructions)
+- [`README`](./deliverables/README)
 
 
 
@@ -94,5 +102,4 @@ Screenshot of cluster configuration
 - Shut down or delete Databricks cluster to avoid unnecessary charges
 
 
-
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-15-2025 19:26:59*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 14:55:50*
