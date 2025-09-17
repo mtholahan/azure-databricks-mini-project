@@ -79,8 +79,6 @@ Screenshot of Databricks cluster configuration
 
 - [`requirements.txt`](./deliverables/requirements.txt)
 
-- [`README`](./deliverables/README)
-
 
 
 
@@ -102,4 +100,4 @@ Screenshot of Databricks cluster configuration
 - Shut down or delete Databricks cluster to avoid unnecessary charges
 
 
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 14:55:50*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 14:57:42*
